@@ -1,0 +1,9 @@
+  az_environment: store
+  customer: demo
+  eap_az_count: 3
+  infra_size: dev
+  jboss_eap_ha: true
+  rhsm_subscribe_host: false
+  scope: test-1
+  version: v1.0
+  war_name: monolith
