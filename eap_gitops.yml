@@ -1,0 +1,17 @@
+---
+
+- name: Include GIT Config
+  include_vars: azure.yml
+
+- name: "Artifact URL of test results to Tower Workflows"
+  set_stats:
+    data:
+      az_environment: "{{ az_environment }}"
+      customer: "{{ customer }}"
+      eap_az_count: "{{ eap_az_count }}"
+      infra_size: "{{ infra_size }}"
+      jboss_eap_ha: "{{ jboss_eap_ha }}"
+      rhsm_subscribe_host: "{{ rhsm_subscribe_host }}"
+      scope: "{{ scope }}"
+      version: "{{ version }}"
+      war_name: "{{ war_name }}"
