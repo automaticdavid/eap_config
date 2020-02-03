@@ -1,5 +1,5 @@
 ---
-customer: "demo"
+customer: "automates"
 ec2_env: "store"
 scope: test
 eap_ec2_count: 3
