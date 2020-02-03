@@ -8,3 +8,4 @@ war_name: monolith
 version: v1.0
 rhsm_subscribe_host: no
 jboss_eap_ha: true
+
