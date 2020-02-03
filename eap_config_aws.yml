@@ -1,0 +1,20 @@
+---
+- hosts: localhost
+  
+  tasks:
+ 
+    - name: Include GIT Config
+      include_vars: aws.yml
+
+    - name: "Artifact URL of test results to Tower Workflows"
+      set_stats:
+        data:
+          customer: "{{ customer }}"
+          ec2_env: "{{ ec2_env }}"
+          scope: "{{ scope }}"
+          eap_ec2_count: "{{ eap_ec2_count }}"
+          infra_size: "{{ infra_size }}"
+          war_name: "{{ war_name }}"
+          version: "{{ version }}"
+          rhsm_subscribe_host: "{{ rhsm_subscribe_host }}"
+          jboss_eap_ha: "{{ jboss_eap_ha }}"
