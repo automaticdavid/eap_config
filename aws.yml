@@ -1,11 +1,11 @@
 ---
-customer: "demo"
+customer: "automates"
 ec2_env: "store"
 scope: test
 eap_ec2_count: 2
 infra_size: prod
 war_name: monolith
-version: v1.1
+version: v1.0
 rhsm_subscribe_host: no
 jboss_eap_ha: true
 
