@@ -5,7 +5,7 @@ scope: test
 eap_ec2_count: 2
 infra_size: prod
 war_name: monolith
-version: v1.0
+version: v1.1
 rhsm_subscribe_host: no
 jboss_eap_ha: true
 
