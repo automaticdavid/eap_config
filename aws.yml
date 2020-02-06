@@ -2,7 +2,7 @@
 customer: "automates"
 ec2_env: "store"
 scope: test
-eap_ec2_count: 2
+eap_ec2_count: 3
 infra_size: prod
 war_name: monolith
 version: v1.0
