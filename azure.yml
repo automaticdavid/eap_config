@@ -1,7 +1,7 @@
   az_environment: store
   customer: demo
-  eap_az_count: 4
-  infra_size: prod
+  eap_az_count: 2
+  infra_size: dev
   jboss_eap_ha: true
   rhsm_subscribe_host: false
   scope: test-1
